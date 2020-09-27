@@ -1,0 +1,101 @@
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.col-3{
+    width: 25%;  
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+.col-12{
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex{
+    display: flex ;
+}
+
+.btn{
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    
+    width: 170px;
+    height: 48px;
+    border-radius: 3px;
+
+    outline: none;
+    border: none;
+    
+    cursor: pointer;
+    background-color: var(--white);
+
+    
+}
+
+.btn-red{
+    background-color: #FF564F;
+    color: var(--white); 
+}
+
+.title{
+    font-family: Inknut Antiqua;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    
+
+    text-transform: uppercase;
+
+    
+}
+.title-black{
+ color: var(--textBlack);
+}
+
+.title-light{
+    color: var(--white);
+}
+
+.list-style {
+    list-style: none;
+}
+
+
+.w870{
+    width: 870px;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+

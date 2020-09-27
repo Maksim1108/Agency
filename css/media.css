@@ -1,0 +1,227 @@
+@media screen and (max-width: 578px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+
+    .line {
+        width: 329px;
+    }
+
+    .header__row .header__logo {
+        padding-left:23px;
+    }
+    
+    .nav__menu {
+        display: none;
+    }
+
+    .header__burger-menu {
+        display: flex;
+    }
+
+    .hero {
+        padding-top: 70px;
+    }
+
+    .hero__title {
+        width: 312px;
+        height: 192px;
+        font-size: 40px;
+        line-height: 48px;
+        padding-left:23px;
+    }
+
+    .hero__subtitle {
+        left: 123px;
+        width: 232px;
+        height: 133px; 
+        font-size: 16px;
+        line-height: 32px;  
+    }
+
+    .hero__boy {
+        height: 360px;
+        width: 329px;
+        padding: 470px 0 0 400px;
+    }
+
+    .hero .slick-prev.slick-arrow {
+        left: 27px;
+        bottom: -80px;
+    }
+
+    .hero .slick-next.slick-arrow {
+        left: 82px;
+        bottom: -80px;
+    }
+
+    .hero__points {
+        left: 268px;
+        top: 382px;
+    }
+
+    .advantage {
+        margin-bottom: 112px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .col__text {
+        margin: 315px 0 0 23px;
+    }
+
+    .img__boy {
+        width:454px;
+        height:340px;
+        top: -9px;
+        right: -412px;
+    }
+
+    .dots-bottom {
+        display: none;
+    }
+
+    .dots-top {
+        top: -26px;
+        left: 16px;
+    }
+    
+    .advantages__title{
+        width: 321px;
+        font-size: 40px;
+    }
+
+    .advantages__subtitle {
+        width: 330px;
+    }
+
+    .advantages__description{
+        width: 329px;
+    }
+
+    .advantages__btn {
+        margin-right: 4px;
+    } 
+
+    .buttons {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 320px;
+    }
+
+    .reviews {
+        min-height: 926px;
+        margin-bottom: 200px;
+    }
+
+    .reviews__title {
+        width: 325px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .reviews__subtitle {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .reviews__description {
+        width: 235px;
+    }
+
+    .reviews__name {
+        width: 85px;
+    }
+
+    .reviews__job {
+        padding-top: 45px;
+    }
+
+    .reviews .white__back {
+        transform: translateY(593px);
+    }
+
+    .slider__reviews {
+        transform: translateY(160px) ;
+    }
+
+    .slider__item {
+        max-width: 329px;
+        max-height: 640px;
+    }
+
+    .social__logos {
+        flex-direction: column;
+        justify-content: center;
+        padding: 85px 0px 85px 0px;
+    }
+
+    .social__img {
+        padding: 20px 0 20px 0;
+    }
+
+    .blog__content {
+        flex-wrap: wrap;
+    }
+
+    .blog__title {
+        padding: 85px 0px 0px 23px;
+        width: 329px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .blog__subtitle {
+        width: 329px;
+        padding: 52px 0 61px 23px;
+    }
+
+    .blog__img {
+        width: 329px;
+    }
+
+    .col-4 {
+        width: 100%;
+        padding: 69px 0 0 23px;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .sign-up__title {
+        width: 213px;
+        padding-left: 23px;
+    }
+
+    .form {
+        top: 285px;
+        right: 25px;
+        width: 329px;
+        height: 288px;
+        justify-content: center;
+    }
+
+    .line-light {
+        display: none;
+    }
+
+    #input {
+        max-width: 235px;
+    }
+
+    .form__btn {
+        width: 235px;
+    }
+
+    .footer__nav {
+        margin: 400px 0 0 23px;
+    }
+    
+    .col__agency,.col__address,.col__menu,.col__social {
+        padding-bottom: 80px;
+    }
+}

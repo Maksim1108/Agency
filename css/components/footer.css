@@ -1,0 +1,151 @@
+.footer{
+    margin: 182px 0 0 0;
+    background-color: #111111;
+}
+
+.footer__sign-up{
+    position: relative;
+    justify-content: space-between;
+    
+}
+
+.sign-up__title{
+    max-width: 364px;
+    margin: 100px 0 75px 0;
+    
+    font-size: 40px;
+    line-height: 48px;
+   
+}
+
+.form{
+    
+    position: absolute;
+    top: 106px;
+    z-index: 1;
+    right: 100px;
+
+    flex-direction: column;
+    background: #FF564F;
+    width: 100%;
+    max-width: 470px;
+    height: 288px;
+}
+
+.form__title{
+    
+    padding: 43px 0 23px 48px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--white);
+}
+
+#input{
+    margin: 0 0 0 48px;
+    padding: 8px 0 8px 16px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+    max-width: 374px;
+    height: 48px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+
+    color: rgba(17, 17, 17, 0.50133)
+}
+
+.form__btn{
+    margin-top: 32px;
+    background: rgba(255, 255, 255, 0.07);
+    width: 374px;
+    transform: translateX(48px);
+}
+
+.footer__nav{
+    margin: 182px 0 0 0;
+    padding-bottom: 117px;
+}
+
+.footer__logo {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: var(--white);
+}
+
+
+.agency__ul{
+    margin-top: 35px;
+}
+
+.item__title{
+    margin-bottom: 35px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--white);
+}
+
+.agency__ul, .addres__ul, .menu__ul{
+    list-style: none;
+}
+
+.agency__item, .addres__item{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgba(255, 255, 255, 0.502972);
+}
+
+.menu__link, .addres__link{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+
+    color: var(--white);
+}
+
+
+
+.facebook, .twitter, .instagram{
+    padding-right: 8px ;
+}
+
+
+
+
+
+
+
+

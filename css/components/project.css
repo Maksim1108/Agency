@@ -1,0 +1,187 @@
+.project{
+    margin: 0 0 112px 0;
+}
+
+.project__content{
+    margin-top: 73px;
+    
+}
+
+.project__title{
+    max-width: 435px;
+    width: 50%;
+    padding: 105px 165px 87px 0;
+}
+
+.project__description{
+    width: 50%;
+    max-width: 570px;
+    padding: 105px 0 58px 0;
+    margin:0 ;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+
+
+    color: rgba(17, 17, 17, 0.50133);
+}
+
+.line{
+    width: 1170px;
+    height: 2px;
+    background-color: #111111;
+}
+
+.side-bar{
+    margin: 0 130px 0 0  ;
+}
+
+
+.sidebar__title{
+    margin-bottom: 37px;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+ 
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--textBlack);
+}
+
+
+
+.sideBarLinks{
+    padding: 9px 0 7px 0;
+
+    width: 170px;
+    height: 48px;
+
+    margin-bottom: 25px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    transition:  .3s;
+
+    cursor: pointer;
+
+    border-radius: 3px;
+
+    box-sizing: border-box;
+  
+
+}
+
+
+.sideBarLinks:hover{
+    color: var(--white);
+    background-color: var(--textBlack);
+    padding-left: 16px;
+}
+
+
+.yellow, .red, .purple, .sand{
+    border-radius: 3px;
+
+}
+
+
+.yellow{
+    background-color: #F8E71C;
+}
+
+.red{
+   background-color:#FF564F;
+}
+
+.purple{
+    background-color: #9013FE;
+}
+
+
+.sand{
+    background-color: #ebb551;
+}
+
+.col__item{
+
+    margin: 0 0 45px 0;
+    
+    position: relative;
+    width: 870px;
+    height: 416px;
+
+    box-sizing: border-box;
+    
+}
+
+.items__text{
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 0 0 57px 48px;
+
+    
+    height: 90%;
+}
+
+.items__tittle{
+    position: absolute;
+    max-width: 281px;
+    font-size: 40px;
+    line-height: 48px;  
+}
+
+.items__subtitle{
+    position: absolute;
+    left: 48px;
+    bottom: 164px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+   
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: var(--textBlack);
+}
+
+
+.items__dog{
+    position: absolute;
+    top: -54px;
+    right: 97px
+}
+
+.items__girl{
+
+    width: 614px;
+    height: 435px;
+    position: absolute;
+    top: -18px;
+    right: -58px
+}
+
+.project__btn{
+    width: 870px;
+}
+
+.m80px{
+    margin: 80px 0 0 0 ;
+}
+

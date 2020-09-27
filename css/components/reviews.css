@@ -1,0 +1,143 @@
+.reviews {
+    min-height: 800px;
+    background: #111111;
+    position: relative;
+    overflow:hidden;
+}
+
+.reviews__title {
+    position: absolute;
+    top: 153px;
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color:#ffffff;
+    width: 455px;
+}
+
+.reviews__subtitle {
+    position: absolute;
+    top: 315px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color:#ffffff;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.reviews__avatar {
+    padding: 48px 0 107px 48px;
+}
+
+.reviews__name {
+    padding-left: 154px;
+    font-family: 'Roboto Condensed';
+    color:#ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    
+    text-transform: uppercase;
+}
+
+.reviews__job {
+    padding: 16px 0 0 154px;
+    font-family: 'DM Sans';
+    color:white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.reviews__item {
+    position: absolute;
+    top: 56px;
+}
+
+.reviews__description {
+    padding: 0px 48px 48px 48px;
+    width: 374px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgba(255, 255, 255, 0.502972)
+}
+
+.green__square {
+    background-color:#417505;
+}
+
+.purple__square {
+    background-color:#9013FE;
+}
+
+.slider__reviews {
+    padding-top: 144px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 950px;
+    position: absolute;
+    z-index: 2;
+    right: -251px;
+}
+
+.slider__item {
+    border: none;
+    outline: none;
+    width: 470px;
+    margin: 0 15px 0 15px;
+    max-height: 512px;
+}
+
+.reviews .slick-prev.slick-arrow {
+    position: absolute;
+    z-index: 2;
+    left: -552px;
+    bottom: 30px;
+    background:url('../../img/hero/button.svg') center;
+    height:48px;
+    width: 48px;
+    font-size: 0;
+    border:none;
+    outline: none;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.reviews .slick-next.slick-arrow {
+    position: absolute;
+    z-index: 2;
+    left: -496px;
+    bottom: 30px;
+    background:url('../../img/hero/button.svg') center;
+    height:48px;
+    width: 48px;
+    font-size: 0;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.reviews .white__back {
+    display: block;
+    position: absolute;
+    transform: translateY(476px);
+    font-size: 0;
+    z-index: 0;
+    width: 100%;
+    height: 336px;
+    background: #FFFFFF;
+}

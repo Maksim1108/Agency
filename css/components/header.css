@@ -1,0 +1,127 @@
+.header {
+    background-color: #111111;
+}
+
+.header__row {
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.header__row-copy {
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateY(-150%);
+    transition: 1s;
+}
+
+.header__row-copy.active {
+    transform: translateY(0%);
+    
+}
+
+.header__row-copy {
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    animation: maxim 0.6s ease-in-out;
+}
+.header__row-copy .nav__menu {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.header__row-copy .nav__item {
+    padding: 0;
+}
+
+.nav__item {
+    padding-right:65px;
+}
+
+.nav__link {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color:white;
+}
+
+.header__logo {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color:white;
+}
+
+.header__burger-menu {
+    position: fixed;
+    z-index: 10;
+    right: 50px;
+    top: 20px;
+    display: none;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color:#111111;
+    border-radius:50%;
+    cursor: pointer;
+}
+
+.burger__menu-line {
+    position: relative;
+    margin: auto;
+    display: block;
+    height: 2px;
+    width: 60%;
+    background-color:#FFF;
+}
+
+.burger__menu-line::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    transform: translateY(-10px);
+    background-color:white;
+    transition: 0.3s;
+}
+
+.burger__menu-line::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    transform: translateY(10px);
+    background-color:white;
+    transition: 0.3s;
+}
+
+.burger__menu-line.active {
+    background-color: #111111;
+}
+
+.burger__menu-line.active::before {
+    transform: rotate(45deg);
+}
+
+.burger__menu-line.active::after {
+    transform: rotate(-45deg);
+}
