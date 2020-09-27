@@ -1,6 +1,6 @@
 @media screen and (max-width: 579px) {
     
-    body {
+    html {
         overflow-x: hidden;
     }
 
@@ -14,6 +14,10 @@
     
     .nav__menu {
         display: none;
+    }
+
+    .header__burger-menu {
+        display: flex;
     }
 
     .hero {
